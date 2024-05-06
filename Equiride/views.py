@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def my_Equiride(request):
-return HttpResponse("Hello, Booking System!")
+    return HttpResponse("Hello, Booking System!")
