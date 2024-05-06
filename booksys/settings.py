@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5h6x2$&^ib^l^dl7v#^j6whe_df^b2(k*58_te(o^f60(($qq2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-rach4el-equiride1-f29pwftkhs9.ws-eu111.gitpod.io']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Equiride',
-    'Booksys',
 ]
 
 MIDDLEWARE = [
