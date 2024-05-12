@@ -21,5 +21,4 @@ from Equiride.views import my_Equiride
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Equiride/', my_Equiride, name='Equiride'),
-    path('homepage/',views.homepage, name='homepage')
 ]
